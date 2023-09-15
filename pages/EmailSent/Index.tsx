@@ -51,7 +51,7 @@ const EmailSent: React.FunctionComponent<Props> = ({
   return (
     <ImageBackground style={{ width: '100%', height: '100%' }} >
       <TouchableOpacity onPress={backButton}>
-        <MaterialIcon name="arrow-left" size={30} color={theme.textColor} style={style.backIcon}/>
+        <MaterialIcon name="chevron-left-circle-outline" size={30} color={theme.textColor} style={style.backIcon}/>
       </TouchableOpacity>
       <ScrollView>
         <View style={style.container}>

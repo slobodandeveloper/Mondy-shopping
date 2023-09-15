@@ -42,7 +42,7 @@ const CreateAccount: React.FunctionComponent<Props> = ({
   return (
     <ImageBackground source={ImagePath} style={{ width: '100%', height: '100%' }} >
         <TouchableOpacity onPress={backButton}>
-          <MaterialIcon name="arrow-left" size={30} color={theme.textColor} style={style.backIcon}/>
+          <MaterialIcon name="chevron-left-circle-outline" size={30} color={theme.textColor} style={style.backIcon}/>
         </TouchableOpacity>
       <ScrollView style={style.mainContainer}>
       <View style={style.container}>
