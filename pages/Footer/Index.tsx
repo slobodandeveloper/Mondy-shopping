@@ -44,7 +44,7 @@ const FooterNavigation: React.FunctionComponent<Props> = ({
     }
 
     return (
-        <View style={[style.container, {borderColor: theme.lightBottomColor, backgroundColor: theme.backgroundColor}]}>
+        <View style={[style.container, {borderColor: theme.lightBottomColor, backgroundColor: theme.backgroundColor, borderRadius : 30}]}>
             <TouchableOpacity onPress={backButton}>
                 <View style={style.iconContainer}>
                     <Icon name="home" size={30} color={theme.appColor} style={[style.Icon]} />

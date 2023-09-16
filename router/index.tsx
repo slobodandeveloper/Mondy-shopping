@@ -20,6 +20,7 @@ import Checkout from '../pages/Checkout';
 import Profile from '../pages/Profile';
 import ForgotPassword from '../pages/ForgotPassword/Index';
 import EmailSent from '../pages/EmailSent/Index';
+import MenuHome from '../pages/MenuHome/Index';
 
 interface Props {
   configReducer: ApplicationConfig
@@ -40,7 +41,8 @@ const Router: React.FunctionComponent<Props> = ({
               <Route exact path="/createAccount/" component={CreateAccount} />
               <Route exact path="/forgotPassword/" component={ForgotPassword} />
               <Route exact path="/emailSent/" component={EmailSent} />
-              <Route exact path="/home/" component={Home} />
+              {/* <Route exact path="/home/" component={Home} /> */}
+              <Route exact path="/home/" component={MenuHome} />
               <Route exact path="/shopping/" component={Shopping} />
               <Route path="/productDetails/" component={ProductDetails} />
               <Route path="/bag/" component={Bag} />

@@ -18,7 +18,7 @@ interface Props extends RouteComponentProps {
   }
 
 // @ts-ignore
-const ImagePath = require("../../images/Recraftsoppify_aap_bg_effect.png")
+// const ImagePath = require("../../images/Recraftsoppify_aap_bg_effect.png")
 
 const CreateAccount: React.FunctionComponent<Props> = ({
     history
@@ -40,7 +40,7 @@ const CreateAccount: React.FunctionComponent<Props> = ({
   }
 
   return (
-    <ImageBackground source={ImagePath} style={{ width: '100%', height: '100%' }} >
+    <ImageBackground style={{ width: '100%', height: '100%' }} >
         <TouchableOpacity onPress={backButton}>
           <MaterialIcon name="chevron-left-circle-outline" size={30} color={theme.textColor} style={style.backIcon}/>
         </TouchableOpacity>
